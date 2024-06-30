@@ -1,1 +1,13 @@
+name: Hello World
+on:
+    push
+jobs:
+    hello-job: # My Notes : No need for name here
+        runs-on: ubuntu-latest 
+        steps:
+        - name: Echo text # My Notes: Steps are defined with hyphones
+          run: echo "Hello, world!"
+
+
+
 
